@@ -1,1 +1,41 @@
-.div-nav {direction: rtl;}
+.div-nav {
+    direction: rtl;
+}
+
+.nav-icons {
+    color: white;
+    font-size: 20px;
+}
+
+.nav-icons:hover {
+    font-size: 25px;
+}
+
+.navbar-brand {
+    margin-left: 40px;
+    font-size: 30px;
+}
+
+.log-nav {
+    font-size: 13px;
+    font-weight: bold;
+}
+.bell-icon{
+    font-size: 20px;
+    vertical-align:middle;
+}
+.bell-icon:hover{
+    color: gold;
+}
+.bell-div{
+    position:relative
+}
+.badge-bell{
+    position: absolute;
+    top: 3px;
+    left:2px;
+    border-radius: 50%;
+}
+.log-icons{
+    font-size: 15px;
+}
