@@ -1,14 +1,41 @@
+@font-face {
+    font-family: parstoo;
+    src: url('../font/Parastoo.eot');
+    src: url('../font/Parastoo.ttf') format('ttf'), url('../font/Parastoo.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+    font-family: Parastoo;
+    font-weight: bold;
+
+}
+
+a {
+    color: white !important;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.navbar-header{
+    padding-left: 3%;
+    padding-right: 3%;
+}
 .div-nav {
     direction: rtl;
 }
 
 .nav-icons {
-    color: white;
     font-size: 20px;
 }
 
-.nav-icons:hover {
-    font-size: 25px;
+.nav-links:hover {
+    color: rgba(226, 226, 226, 1) !important;
 }
 
 .navbar-brand {
@@ -20,22 +47,218 @@
     font-size: 13px;
     font-weight: bold;
 }
-.bell-icon{
-    font-size: 20px;
-    vertical-align:middle;
+
+.log-icons-enter {
+    font-size: 18px !important;
 }
-.bell-icon:hover{
+
+.bell-icon {
+    font-size: 20px;
+    vertical-align: middle;
+}
+
+.bell-icon:hover {
     color: gold;
 }
-.bell-div{
-    position:relative
+
+.bell-div {
+    position: relative
 }
-.badge-bell{
+
+.badge-bell {
     position: absolute;
     top: 3px;
-    left:2px;
+    left: 5px;
     border-radius: 50%;
 }
-.log-icons{
+
+.log-icons {
     font-size: 15px;
 }
+
+@media screen and (min-width: 1016px) {
+    .icons-logs-dropdown {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1016px) {
+    .section-bar {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1016px) {
+    .section-bar {
+        display: flex !important;
+    }
+}
+
+/* End Nav Bar */
+
+.section-info {
+    height: 410px;
+    background-image: url('../image/196309_159.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px;
+    position: relative;
+}
+
+.div-information {
+    padding: 40px !important;
+    width: 700px;
+    height: 170px;
+    border-radius: 15px 50px 30px;
+    background-color: rgba(229, 229, 229, 0.8);
+    margin: auto;
+}
+
+.div-margin {
+    margin-top: 9px !important;
+}
+
+p {
+    direction: rtl;
+}
+
+.p-information {
+    text-align: center;
+}
+
+.p-title {
+    font-size: 30px;
+}
+
+@media screen and (max-width: 770px) {
+    .div-information {
+        border-radius: 0%;
+        width: 100%;
+        height: 100px;
+        padding: 2px !important;
+        margin-top: 30px;
+    }
+    .p-title {
+        font-size: 15px !important;
+        font-weight: bolder;
+    }
+    .p-info {
+        font-size: 13px;
+    }
+}
+
+.div-search {
+    background-color: rgba(3, 3, 3, 0.54);
+    width: 800px;
+    height: 110px;
+    border-radius: 6px;
+    margin-top: 20px;
+    margin: auto;
+    padding: 10px 5px 0px;
+    direction: rtl;
+}
+@media screen and (max-width: 770px) {
+    .div-search {
+        border-radius: 0%;
+        width: 100%;
+        height: 130px;
+    }
+    .select-opt {
+        display: none;
+    }
+    .input-search {
+        text-align: center;
+        z-index: 0;
+        margin-top: 10px;
+        display: block !important;
+    }
+    .search-icon {
+        display: none;
+    }
+    .btn-search {
+        z-index: 1;
+        margin-top: 50px;
+    }
+}
+
+.search-input {
+    position: relative;
+}
+
+.search-icon {
+    position: absolute;
+    z-index: 2;
+    left: 215px;
+    top: 13px;
+    font-size: small;
+}
+
+.input-search {
+    position: absolute;
+    z-index: 1;
+}
+
+.input-search::placeholder {
+    padding: 10px;
+}
+
+.last-pro-div {
+    text-align: center;
+    background-color: rgba(229, 229, 229, 0.8);
+    width: 200px;
+    height: 30px;
+    border-radius: 20px;
+    font-weight: normal !important;
+    margin-top: 10px;
+}
+
+.div-seeing {
+    background-color: rgba(242, 152, 60, 0.56);
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    margin-top: 10px;
+    padding-top: 13px;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+}
+
+/* Start image-logo-header */
+
+.logo-section {
+    margin-top:30px;
+    margin-bottom: 30px;
+    padding-right: 10%;
+    padding-left: 10%;
+
+}
+
+.logo-link {
+    display: inline-block;
+    border: 0.5px solid rgb(226, 226, 226);
+    border-radius: 3px;
+    /* padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px; */
+    
+}
+
+.div-logo {
+    text-align: center;
+    padding: 2px 2px 2px !important;
+}
+
+.logo-image {
+}
+
+.logo-title {
+    color: skyblue;
+    margin-top: 5px;
+}
+
+/* End image-logo-header */

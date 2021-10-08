@@ -14,35 +14,190 @@
 
 <body>
     <!-- Start nav bar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-header">
+
         <a class="navbar-brand JobInjaBrand" href="#">JobInja</a>
-        <a href="#" class="nav-item nav-link text-light log-nav">ثبت نام کارجو<i class="fa fa-user-plus ml-2 log-icons" aria-hidden="true"></i></a>
-        <a href="#" class="nav-item nav-link text-light log-nav">ورود کارجو<i class="fa fa-user-circle ml-2 log-icons" aria-hidden="true"></i></a>
+
+        <!-- DropDown -->
+        <a href="" class="btn icons-logs-dropdown">
+            <span>
+                <i class="fa fa-child" aria-hidden="true"></i>
+            </span>
+        </a>
+        <ul class="d-none">
+            <li>
+                <a href="#" class=" nav-item nav-link text-light log-nav">ثبت نام کارجو<i
+                        class="fa fa-user-plus ml-2 log-icons" aria-hidden="true"></i></a>
+            </li>
+            <li>
+                <a href="#" class=" nav-item nav-link text-light log-nav">ورود کارجو<i
+                        class="fa fa-user-circle ml-2 log-icons log-icons-enter" aria-hidden="true"></i></a>
+            </li>
+        </ul>
+        <!-- End DropDown -->
+
+        <section class="section-bar">
+            <a href="#" class=" nav-item nav-link text-light log-nav">ثبت نام کارجو<i
+                    class="fa fa-user-plus ml-2 log-icons" aria-hidden="true"></i></a>
+            <a href="#" class=" nav-item nav-link text-light log-nav">ورود کارجو<i
+                    class="fa fa-user-circle ml-2 log-icons log-icons-enter" aria-hidden="true"></i></a>
+        </section>
+
+
         <a href="#" class="bell-div nav-item nav-link text-light log-nav">
             <span class="badge-bell badge badge-danger">1</span>
             <i class="bell-icon fa fa-bell" aria-hidden="true"></i>
         </a>
+
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="div-nav collapse navbar-collapse" id="navbarNav">
-            <div class="navbar-nav">
-                <a class="nav-item nav-link" href="#"><i class="fa fa-home ml-2 nav-icons"
+            <div class=" navbar-nav">
+                <a class="nav-links nav-item nav-link" href="#"><i class="fa fa-home ml-2 nav-icons"
                         aria-hidden="true"></i>خانه</a>
-                <a class="nav-item nav-link" href="#"><i class="fa fa-search ml-2 nav-icons"
+                <a class="nav-links nav-item nav-link" href="#"><i class="fa fa-search ml-2 nav-icons"
                         aria-hidden="true"></i>جستجو مشاغل</a>
-                <a class="nav-item nav-link" href="#"><i class="fa fa-gift ml-2 nav-icons" aria-hidden="true"></i>رزومه
+                <a class="nav-links nav-item nav-link" href="#"><i class="fa fa-gift ml-2 nav-icons"
+                        aria-hidden="true"></i>رزومه
                     ساز</a>
-                <a class="nav-item nav-link" href="#"><i class="fa fa-building ml-2 nav-icons" aria-hidden="true"></i>50
+                <a class="nav-links nav-item nav-link" href="#"><i class="fa fa-building ml-2 nav-icons"
+                        aria-hidden="true"></i>50
                     شرکت برتر</a>
-                <a class="nav-item nav-link" href="#"><i class="fa fa-eye ml-2 nav-icons" aria-hidden="true"></i>بخش
+                <a class="nav-links nav-item nav-link" href="#"><i class="fa fa-eye ml-2 nav-icons"
+                        aria-hidden="true"></i>بخش
                     کارفرمایان</a>
             </div>
         </div>
     </nav>
 
     <!-- End nav bar -->
+
+    <!--  -->
+
+    <section class="section-info">
+        <div class="div-information">
+            <div class="row div-margin">
+                <p class="col-12 p-information p-title"> <span class="text-danger">۱۵,۹۴۸</span> آگهی استخدام فعال
+                    در
+                    <span class="text-danger">۶,۱۹۶</span> شرکت ایرانی
+                </p>
+                <p class="col-12 p-information p-info">#جابینجا: سامانه کاریابی آنلاین با بیشترین تعداد آگهی استخدام
+                    در
+                    ایران</p>
+            </div>
+        </div>
+
+            <div class="div-search">
+                <form action="" class="form-group">
+                    <div class="row">
+                        <div class="form-group d-flex">
+                            <div class="col-12 col-md-4 col-lg-4 col-xl-4">
+                                <div class="search-input">
+                                    <i class="search-icon fa fa-search" aria-hidden="true"></i>
+                                    <input class="form-control input-search" type="text" placeholder="عنوان شغلی">
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <select class="form-control select-opt">
+                                    <option value="" selected>همه ی دسته بندی ها</option>
+                                    <option value="">وب</option>
+                                    <option value="">فروش</option>
+                                    <option value="">تولید</option>
+                                    <option value="">بازریابی</option>
+                                    <option value="">محتوا</option>
+                                    <option value="">مالی</option>
+                                    <option value="">حسابداری</option>
+                                    <option value="">مهندسی</option>
+                                    <option value="">طراحی</option>
+                                    <option value="">پشتیبانی</option>
+                                </select>
+                            </div>
+                            <div class="col-md-4 ">
+                                <select class="form-control select-opt">
+                                    <option value="" selected>همه ی استان ها</option>
+                                    <option value="">تهران</option>
+                                    <option value="">مشهد</option>
+                                    <option value="">کرمان</option>
+                                    <option value="">یزد</option>
+                                    <option value="">شیراز</option>
+                                    <option value="">اصفهان</option>
+                                    <option value="">مرکزی</option>
+                                    <option value="">گلستان</option>
+                                    <option value="">مازندران</option>
+                                    <option value="">گیلان</option>
+                                </select>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <button type="button" class="btn-search btn btn-warning col-12">بگرد و پیدا کن</button>
+
+                </form>
+
+
+
+            </div>
+
+        <div class="last-pro-div container">
+            <p class="last-pro-p">آخرین رزومه ارسالی به <a href="" class="text-danger">اپ ساز</a></p>
+        </div>
+
+        <div class="div-seeing">
+            <a href="" class="link-seeing">
+                مشاهده همه آگهی‌های استخدام
+            </a>
+        </div>
+
+    </section>
+
+    <!-- Start Logo -->
+
+    <div class="row logo-section">
+        <div class="col-4 col-xl-2 col-md-2 col-sm-4 col-xs-6 div-logo">
+            <a href="" class="logo-link">
+                <img src="image/main (1).jpg" class="img-fluid logo-image" alt="">
+                <span class="d-block logo-title">گومدیران</span>
+            </a>
+        </div>
+        <div class="col-4 col-xl-2 col-md-2 col-sm-4 col-xs-6 div-logo">
+            <a href="" class="logo-link">
+                <img src="image/main (1).png" class="img-fluid logo-image" alt="">
+                <span class="d-block logo-title">شابش</span>
+            </a>
+        </div>
+        <div class="col-4 col-xl-2 col-md-2 col-sm-4 col-xs-6 div-logo">
+            <a href="" class="logo-link">
+                <img src="image/main (2).jpg" class="img-fluid logo-image" alt="">
+                <span class="d-block logo-title">زومیت</span>
+            </a>
+        </div>
+        <div class="col-4 col-xl-2 col-md-2 col-sm-4 col-xs-6 div-logo">
+            <a href="" class="logo-link">
+                <img src="image/main (2).png" class="img-fluid logo-image" alt="">
+                <span class="d-block logo-title">گروه انتخاب</span>
+            </a>
+        </div>
+        <div class="col-4 col-xl-2 col-md-2 col-sm-4 col-xs-6 div-logo">
+            <a href="" class="logo-link">
+                <img src="image/main.jpg" class="img-fluid logo-image" alt="">
+                <span class="d-block logo-title">فتاپ</span>
+            </a>
+        </div>
+        <div class="col-4 col-xl-2 col-md-2 col-sm-4 col-xs-6 div-logo">
+            <a href="" class="logo-link">
+                <img src="image/main.png" class="img-fluid logo-image" alt="">
+                <span class="d-block logo-title">گلستان</span>
+            </a>
+        </div>
+    </div>
+
+    <!-- End Logo -->
+
 
 
 
