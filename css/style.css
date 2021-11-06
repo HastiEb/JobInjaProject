@@ -4,13 +4,11 @@
     src: url('../font/Parastoo.ttf') format('ttf'), url('../font/Parastoo.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
 
 body {
     font-family: Parastoo;
     font-weight: bold;
-
 }
 
 a {
@@ -22,10 +20,11 @@ a:hover {
     text-decoration: none;
 }
 
-.navbar-header{
+.navbar-header {
     padding-left: 3%;
     padding-right: 3%;
 }
+
 .div-nav {
     direction: rtl;
 }
@@ -130,7 +129,7 @@ p {
     font-size: 30px;
 }
 
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 768px) {
     .div-information {
         border-radius: 0%;
         width: 100%;
@@ -157,7 +156,8 @@ p {
     padding: 10px 5px 0px;
     direction: rtl;
 }
-@media screen and (max-width: 770px) {
+
+@media screen and (max-width: 768px) {
     .div-search {
         border-radius: 0%;
         width: 100%;
@@ -230,35 +230,89 @@ p {
 /* Start image-logo-header */
 
 .logo-section {
-    margin-top:30px;
+    margin-top: 30px;
     margin-bottom: 30px;
-    padding-right: 10%;
-    padding-left: 10%;
-
+    margin-right: 10%;
+    margin-left: 10%;
+    /* padding-right: 10%;
+    padding-left: 10%; */
 }
 
 .logo-link {
     display: inline-block;
     border: 0.5px solid rgb(226, 226, 226);
     border-radius: 3px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-right: 10%;
+    padding-left: 10%;
+    margin-bottom: 5%;
     /* padding-top: 10px;
     padding-bottom: 10px;
     padding-right: 10px;
     padding-left: 10px; */
-    
 }
 
 .div-logo {
     text-align: center;
-    padding: 2px 2px 2px !important;
-}
-
-.logo-image {
+    padding: 1px 1.5% 1px !important;
 }
 
 .logo-title {
-    color: skyblue;
-    margin-top: 5px;
+    color: rgb(66, 176, 240);
+    font-weight: normal !important;
+    margin-top: 10%;
 }
 
 /* End image-logo-header */
+
+/* posts */
+
+.posts-section {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-right: 10%;
+    padding-left: 10%;
+    text-align: right;
+    direction: rtl;
+}
+
+.urgent-post-main-div {
+    
+}
+.urgent-divs{
+    text-align: right;
+    padding-right: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-bottom: 4%;
+    /* direction: rtl !important; */
+    /* display: inline-block; */
+    border: 0.5px solid rgb(226, 226, 226);
+    position: relative;
+}
+.badge-urgent{
+    position: absolute;
+    bottom: 45px;
+    left:22px;
+    border-radius: 30px;
+}
+.urgent-links{
+    color:rgb(23, 165, 247) !important; 
+    font-weight: normal !important;
+    font-size: 15px;
+}
+.urgent-icons-div{
+    font-weight: normal !important;
+    font-size: 13px;
+    color: gray;
+}
+.urgent-icons{
+margin:3px
+}
+.last-div-header{
+    border-top: 3px solid rgb(23, 165, 247);
+    border-right: 1px solid gray;
+    border-left: 1px solid gray;
+    border-radius: 3px;
+}
